@@ -94,5 +94,9 @@
   	
 }
 
-
+jSuites.calendar(document.getElementById('calendar'), {
+    type: 'year-month-picker',
+    format: 'MMM-YYYY',
+    validRange: [ '2020-02-01', '2022-12-31' ]
+});
 	
